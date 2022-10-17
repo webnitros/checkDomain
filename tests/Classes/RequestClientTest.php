@@ -36,8 +36,30 @@ class RequestClientTest extends TestCase
         ];
     }
 
+    public function urls_de2()
+    {
+        return [
+            [
+                'url' => 'https://dev2.massive.ru/robots.txt',
+                'count' => 0
+            ],
+            [
+                'url' => 'http://dev2.massive.ru/robots.txt',
+                'count' => 1
+            ],
+            [
+                'url' => 'http://www.dev2.massive.ru/robots.txt',
+                'count' => 1
+            ],
+            [
+                'url' => 'http://www.dev2.massive.ru/catalog/podvesnyie-svetilniki/interer-dlya-bolshix-zalov',
+                'count' => 1
+            ],
+        ];
+    }
+
     /**
-     * @dataProvider urls
+     * @dataProvider urls_de2
      */
     public function testStatusNoRedirects($url, $countRedirect)
     {

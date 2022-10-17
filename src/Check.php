@@ -6,9 +6,9 @@
  * Time: 14:34
  */
 
-namespace App;
+namespace CheckDomain;
 
-use App\Helpers\RequestClient;
+use CheckDomain\Helpers\RequestClient;
 
 class Check
 {

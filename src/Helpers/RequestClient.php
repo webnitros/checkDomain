@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers;
+namespace CheckDomain\Helpers;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;
