@@ -31,11 +31,11 @@ tests = Tests\
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/webnitros/app"
+      "url": "https://github.com/webnitros/checkDomain"
     }
   ],
   "require": {
-    "webnitros/app": "^1.0.0"
+    "webnitros/checkDomain": "^1.0.0"
   }
 }
 ```

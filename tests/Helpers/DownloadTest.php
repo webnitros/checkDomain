@@ -6,10 +6,10 @@
  * Time: 11:53
  */
 
-namespace App\Tests\Helpers;
+namespace Tests\Helpers;
 
 use App\Helpers\Download;
-use App\Tests\TestCase;
+use Tests\TestCase;
 
 class DownloadTest extends TestCase
 {
