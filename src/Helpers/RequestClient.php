@@ -162,7 +162,7 @@ final class RequestClient extends Client
                         'from' => (string)$request->getUri(),
                         'from_target' => (string)$request->getRequestTarget(),
                         'to' => (string)$uri,
-                        'to_https' => (string)$uri->getScheme(),
+                        'schema' => (string)$uri->getScheme(),
                         'status_code' => $response->getStatusCode(),
                     ];
                     if (count($this->_redirects) > 10) {
